@@ -7,7 +7,7 @@ import logging
 
 # -------- تنظیمات اصلی --------
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-BOT_TOKEN = "8087221986:AAHoYnPRGlGQWaKztKow-1nb1hTtM2eeVqk"
+BOT_TOKEN = "your token"
 ADMINS = [332034345]
 
 bot = telebot.TeleBot(BOT_TOKEN)
